@@ -1,0 +1,32 @@
+.a{
+    color: white;
+    margin: auto;
+    background-size:cover;
+    animation: example 5s forwards;
+    background-image:url(https://i.ytimg.com/vi/SigIbCVMTzU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCiiXqUJ5yw0fxrzePFSd6qqboyVQ);
+}
+hr{
+    color: black;
+}
+.b{
+    margin: auto;
+    padding-block-start: 10px;
+    background: linear-gradient(90deg, rgb(255, 255, 255) 35%, rgb(55, 255, 188) 100%);
+    width:fit-content;
+    padding-block-end: 10px;
+}
+.b1{
+    color: rgb(90, 239, 189);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.b2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 5px;
+    padding-left: 20px;
+    padding: 20px;
+    text-align:justify;
+}
+@keyframes example{
+        0%, 100% { opacity: 0; }
+        100% { opacity: 1; }
+    }
